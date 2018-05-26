@@ -1,19 +1,18 @@
 # Dependencies
-markdown:         redcarpet
 highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
 
 # Setup
-title:            李哲成
+title:            Zhecheng Li
 tagline:          'A Jekyll theme'
-description:      '这是我的博客'
+description:      'This is my blog'
 url:              www.google.com
 baseurl:          /
 
 author:
-  name:           '李哲成'
+  name:           'Zhecheng Li'
   url:            https://www.weibo.com/1146436863/profile?rightmod=1&wvr=6&mod=personinfo
 
 paginate:         5
