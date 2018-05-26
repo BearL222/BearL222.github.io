@@ -10,6 +10,9 @@ logo: '/public/logo.png'
 # Dependencies
 markdown:         redcarpet
 highlighter:      pygments
+<<<<<<< HEAD
+>>>>>>> parent of 1dde12c... u
+=======
 >>>>>>> parent of 1dde12c... u
 
 # Site configurations
