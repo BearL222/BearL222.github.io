@@ -20,13 +20,13 @@ version: 1.0.0
 
 # About/contact
 author:
-  name: Zhecheng Li
+  name: Codinfox
   description: A student and programmer.
-  gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
+  gravatar: 00701f2638e761ed5b3458ae58c2541f # md5 hash of your email address
   contact:
     linkedin:  https://www.linkedin.com/in/zhecheng-li/
     github:    https://github.com/BearL222
-    # facebook:  <hide>
+    facebook:  https://www.facebook.com/bear.li.50309
     twitter:   https://twitter.com/I_am_Bear_Li
     weibo:     https://www.weibo.com/1146436863/profile?topnav=1&wvr=6
     email:     http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=
