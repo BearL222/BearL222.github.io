@@ -1,60 +1,60 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      rouge
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site configurations
-gems:
-  - jekyll-paginate
+# Site settings
+title: Zhecheng Li
+brief-intro: A student and engineer
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://gaohaoyang.github.io" # the base hostname & protocol for your site
+
+permalink: /:year/:month/:day/:title/
+
+# other links
+twitter_username: gaohaoyang126
+facebook_username: gaohaoyang.water
+github_username:  Gaohaoyang
+email: gaohaoyang126@126.com
+weibo_username: 3115521wh
+zhihu_username: gaohaoyang
+linkedIn_username: gaohaoyang
+dribbble_username:
+
+description_footer: 本站记录我前端之旅的沿途风景！
+
+# comments
+# two ways to comment, only choose one, and use your own short name
+# 两种评论插件，选一个就好了，使用自己的 short_name
+duoshuo_shortname: #hygblog
+disqus_shortname: gaohaoyang
+
+# statistic analysis 统计代码
+# 百度统计 id，将统计代码替换为自己的百度统计id，即
+# hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
+# xxxxx字符串
+baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
+google_analytics_id: UA-72449510-4 # google 分析追踪id
+
+# Build settings
 markdown: kramdown
+
 kramdown:
   input: GFM
-excerpt_separator: "<!-- more -->"
-sass:
-  style: compressed
-  sass_dir: _scss    
-paginate: 5
-paginate_path: '/blog/page:num'
-permalink: pretty
+  syntax_highlighter: rouge
 
-version: 1.0.0
+# port
+# port: 1234
 
-# About/contact
-author:
-  name: Codinfox
-  description: A student and programmer.
-  gravatar: bed03a59a312831c52d556881b64e729 # md5 hash of your email address
-  contact:
-    linkedin:  https://www.linkedin.com/in/zhecheng-li/
-    github:    https://github.com/BearL222
-    facebook:  https://www.facebook.com/bear.li.50309
-    twitter:   https://twitter.com/I_am_Bear_Li
-    weibo:     https://www.weibo.com/1146436863/profile?topnav=1&wvr=6
-    # email:     http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=
-    email:     bearli2014@gmail.com
+# url
+category_dir: category/
+tag_dir: tag/
 
-# Navigation (2nd level links supported)
-nav:
-  Home:           
-    - '/'
-  Blog:           
-    - '/blog/'
-    - { Categories: '/blog/categories/' }
-    - { Tags: '/blog/tags/' }
-  About:          
-    - '/about/'
-  Github Project: 
-    - 'http://BearL222.github.io/'
+# excerpt
+excerpt_separator: "\n\n\n\n"
 
-# Where are tags and categories displayed
-tag_page: '/blog/tags/'
-category_page: '/blog/categories/'
-
-hero:
-  image: /public/img/we_will_be_giants_by_yalestewart.jpg
-  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
-
-# Puglins
-mathjax: true # whether support mathjax
-google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
-disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
-
+# paginate
+gems: [jekyll-paginate]
+paginate: 6
