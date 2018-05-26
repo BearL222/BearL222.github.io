@@ -36,12 +36,12 @@ ambari port 8080 through http
 - 1. Mapper: Source data -> Key-value pair
 - 2. Sort and groups the mapped data (shuffle and sort)
 - 3. summary
-![hdfs](/public/blog-img/2018-5-20-HDFS-and-MapReduce/mapreduce-summary.jpg)
+![mr-summary](/public/blog-img/2018-5-20-HDFS-and-MapReduce/mapreduce-summary.jpg)
 
 ## 5. MapReduce distributing process
 - 1. What's happening
-![hdfs](/public/blog-img/2018-5-20-HDFS-and-MapReduce/what-happening.jpg)
+![happen](/public/blog-img/2018-5-20-HDFS-and-MapReduce/what-happening.jpg)
 - 2. MapReduce written
-![hdfs](/public/blog-img/2018-5-20-HDFS-and-MapReduce/mapreduce-written.jpg)
+![mr-written](/public/blog-img/2018-5-20-HDFS-and-MapReduce/mapreduce-written.jpg)
 
 ## 6. Break down movie ratings by rating score

@@ -9,21 +9,21 @@
 title: Zhecheng Li
 brief-intro: A student and engineer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://gaohaoyang.github.io" # the base hostname & protocol for your site
+url: "https://BearL222.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
 # other links
-twitter_username: gaohaoyang126
-facebook_username: gaohaoyang.water
-github_username:  Gaohaoyang
-email: gaohaoyang126@126.com
-weibo_username: 3115521wh
-zhihu_username: gaohaoyang
-linkedIn_username: gaohaoyang
+twitter_username: 
+facebook_username: 
+github_username:  BearL222
+email: bearli2014@gmail.com
+weibo_username: 
+zhihu_username: 
+linkedIn_username: zhecheng-li
 dribbble_username:
 
-description_footer: 本站记录我前端之旅的沿途风景！
+description_footer: 这是我的博客！
 
 # comments
 # two ways to comment, only choose one, and use your own short name
