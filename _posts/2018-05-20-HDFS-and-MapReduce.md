@@ -6,9 +6,8 @@ tags: [hadoop, mapreduce, hdfs]
 ---
 
 ## 1. What is HDFS
-The Hadoop distributed file system
-
-![hdfs](/public/blog-img/2018-5-20-HDFS-and-MapReduce/hdfs.jpg)
+The Hadoop distributed file system  
+![hdfs](http://pair5904t.bkt.clouddn.com/2018-5-20-HDFS-and-MapReduce/hdfs.jpg)
 
 - **Name node** keeps track of the whole
 - **Data node** stores data and file
@@ -35,13 +34,13 @@ ambari port 8080 through http
 ## 4. MapReduce
 - 1. Mapper: Source data -> Key-value pair
 - 2. Sort and groups the mapped data (shuffle and sort)
-- 3. summary
-![mr-summary](/public/blog-img/2018-5-20-HDFS-and-MapReduce/mapreduce-summary.jpg)
+- 3. summary  
+![mr-summary](http://pair5904t.bkt.clouddn.com/2018-5-20-HDFS-and-MapReduce/mapreduce-summary.jpg)
 
 ## 5. MapReduce distributing process
-- 1. What's happening
-![happen](/public/blog-img/2018-5-20-HDFS-and-MapReduce/what-happening.jpg)
-- 2. MapReduce written
-![mr-written](/public/blog-img/2018-5-20-HDFS-and-MapReduce/mapreduce-written.jpg)
+- 1. What's happening  
+![happen](http://pair5904t.bkt.clouddn.com/2018-5-20-HDFS-and-MapReduce/what-happening.jpg)
+- 2. MapReduce written  
+![mr-written](http://pair5904t.bkt.clouddn.com/2018-5-20-HDFS-and-MapReduce/mapreduce-written)
 
 ## 6. Break down movie ratings by rating score
