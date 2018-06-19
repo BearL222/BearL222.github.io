@@ -1,8 +1,8 @@
---
+---
 layout: post
 title: Treap, an alternative for binary tree
 tags: data-structures, treap
---
+---
 
 ## What is Treap
 ### Definition
