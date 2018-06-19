@@ -3,7 +3,6 @@ layout: post
 title: Treap, an alternative for binary tree
 tags: data-structures, treap
 ---
-
 ## What is Treap
 ### Definition
 Treap is Trees + Heaps. It is one kind of binary trees.  
@@ -20,17 +19,14 @@ Treap is organized so that the data forms:
 * heap-ordered tree with respect to priority values
 
 Note: high priorities are represented by high values.
-
 ### Example
 ![treap-example](http://pair5904t.bkt.clouddn.com/2018-06-19-treap-intro/Screen%20Shot%202018-06-19%20at%2013.50.17.png)
-
 ## Complexity
 
 * The time complexity of insertion, access, deletion of each data structure is O(log n).  
 * Expected number of rotation is <= 2.
 
 ## Pseudocode
-
 ### Access
 ```
 Same as common binary tree
@@ -61,11 +57,9 @@ def delete(self, v):
 	delete the leaf node v
 
 ```
-
 ## Implementation
 It is implemented with Python. [Github](https://github.com/BearL222/CS261p/tree/master/Project2)  
 Note: insertion, access, deletion functions return a array sized 2, which contains the return value and a operation counter.
-
 ### Insertion
 ```
 def search(self, k):
@@ -156,24 +150,20 @@ def delete(self, k):
     return results
 
 ```
-
 ### Other utility functions (signatures)
 ```
 rotate_right(self, parent) # do left rotation
 rotate_left(self, parent) # do right rotation
 true_delete(self, node) # just delete this node
 ```
-
 ## Performance
 ### Testing method
 In this lab, each data structure’s performance is tested on insertion, search, deletion operations. Data set sizes from 100, 200 to 5000. Elements in data set are chosen randomly. The testing program runs around 50 times to get the average result. The results are numbers of operations instead of time.  
 Plots below show 3 curves with different colors. Blue one means one insertion operation, red one means one search operation and green one means one deletion operation. X axis is the number of nodes in the tree when searching, inserting or deleting. Y axis is the cost to do the operation.
 ### Plot
 ![treap-performance](http://pair5904t.bkt.clouddn.com/2018-06-19-treap-intro/treap-performance.png)
-
 ## Conclusion
 We can see from the plots in Performance part that the performance of each operation is O(log n).  
 For Treap, cost of search is lowest because it is just like the binary tree search. Costs of other two operations are similar because their expected number of rotations is at most 2.
-
 ## Referrence
 Notes from Prof. Michael B. Dillencourt  Wikipedia
