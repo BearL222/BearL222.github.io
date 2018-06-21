@@ -129,7 +129,7 @@ def delete(self, k):
     results[1] = self.counter
     return results
 ```
-### Other utility functions (signatures)
+### Other utility functions
 ```
 rotate_right(self, parent) # do left rotation
 rotate_left(self, parent) # do right rotation
