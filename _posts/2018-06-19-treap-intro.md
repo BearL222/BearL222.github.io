@@ -63,29 +63,6 @@ It is implemented with Python. [Github](https://github.com/BearL222/CS261p/tree/
 Note: insertion, access, deletion functions return a array sized 2, which contains the return value and a operation counter.
 ### Insertion
 ```
-def search(self, k):
-    results = [None] * 2
-    self.counter = 1
-    if self.empty:
-        results[1] = self.counter
-        return results
-
-    node = self.root
-    while node is not None:
-        self.counter += 1
-        if k < node.value:
-            node = node.leftChild
-        elif k > node.value:
-            node = node.rightChild
-        else:
-            results[0] = node
-            break
-    results[1] = self.counter
-    return results
-
-```
-### Access
-```
 def insert(self, k):
     results = [None] * 2
     self.counter = 1
@@ -130,6 +107,29 @@ def insert(self, k):
                     self.rotate_left(v.parent)
     results[1] = self.counter
     return results
+```
+### Access
+```
+def search(self, k):
+    results = [None] * 2
+    self.counter = 1
+    if self.empty:
+        results[1] = self.counter
+        return results
+
+    node = self.root
+    while node is not None:
+        self.counter += 1
+        if k < node.value:
+            node = node.leftChild
+        elif k > node.value:
+            node = node.rightChild
+        else:
+            results[0] = node
+            break
+    results[1] = self.counter
+    return results
+
 ```
 ### Deletion
 ```
