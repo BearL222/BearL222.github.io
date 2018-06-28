@@ -1,6 +1,6 @@
 ---
 layout: post
-title: UCI CS courses
+title: UCI CS courses I: DS and AI
 category: uci
 tag: uci, courses
 ---
