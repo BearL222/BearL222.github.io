@@ -1,7 +1,7 @@
 ---
 layout: post
 title: UCI CS courses II: DB and IoT
-tag: uci, courses
+tags: uci, courses
 category: uci
 ---
 Here I upload my review notes (mind map) of my courses at UCI.
