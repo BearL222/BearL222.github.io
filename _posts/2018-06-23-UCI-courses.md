@@ -1,9 +1,10 @@
 ---
 layout: post
 title: UCI CS courses I: DS and AI
-tags: uci, courses
+tags: uci
 category: uci
 ---
+### Intro
 Here I upload my review notes (mind map) of my courses at UCI.
 
 ### UCI CS261p: Data Structures
