@@ -153,3 +153,40 @@ OR
 arr.forEach(someFunction)
 
 # Javascript Basics: Object
+## Intro
+```
+var Person = {
+	name: "Cindy",
+	age: 32,
+	city: "Missoula"
+};
+// bracket notation
+console.log(person["name"]);
+// dot notation, cannot start with a number, or name with space
+console.log(person.name);
+
+// another way to create an object
+var person = new Object();
+// or 
+var person = {}
+
+person.name = "Travels";
+person.age = 21;
+person.city = "LA"
+```
+
+## Comparing Objects and Arrays
+Object has key-value pairs.
+
+## Nested Objects and Arrays
+
+## JS Methods
+```
+var obj = {
+	add: functino(x, y) {
+		return x + y;
+	}
+}
+```
+
+## "this" keyword
