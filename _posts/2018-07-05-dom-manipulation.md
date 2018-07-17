@@ -84,3 +84,86 @@ Returns a list of elements that matches a given CSS-style selector
 var tags = document.querySelectorAll("h1");
 ```
 
+# DOM Manipulation
+## Style
+```
+tag.style.color = "yellow"
+```
+
+Alternative:  
+Rather than directly manipulating style with JS, we can define a CSS class and then toggle it on or off with JS  
+//INSTEAD OF THIS:  
+```
+var tag = document.getElementById("highlight");
+tag.style.color = "blue";
+tag.style.border = "10px solid red";
+```
+
+/*DEFINE A CLASS IN CSS*/
+```
+.some-class {
+  color: blue;
+  border: 10px solid red;
+}
+```
+
+//ADD THE NEW CLASS TO THE SELECTED ELEMENT
+```
+var tag = document.getElementById("highlight");
+tag.classList.add("some-class");
+```
+
+## classList
+A read-only list that contains the classes for a given element.  It is not an array.
+
+
+```
+/*DEFINE A CLASS IN CSS*/ 
+.another-class {
+  color: purple;
+  fontSize: 76px;
+}
+```
+
+```
+var tag = document.querySelector("h1");
+
+//ADD A CLASS TO THE SELECTED ELEMENT
+tag.classList.add("another-class");
+
+//REMOVE A CLASS
+tag.classList.remove("another-class");
+
+//TOGGLE A CLASS
+tag.classList.toggle("another-class");
+```
+
+# Manipulating text, context, attributes
+
+## textContent
+Returns a string of all the text contained in a given element  
+It treats everything as string.
+
+## innerHTML
+Similar to textContent, except it returns a string of all the HTML contained in a given element  
+It treats everything as HTML
+
+## Attributes
+Use getAttribute() and setAttribute() to read and write attributes like src or href
+```
+<a href="www.google.com">I am a link</a>
+<img src="logo.png">
+```
+
+```
+var link = document.querySelector("a");
+link.getAttribute("href");  //"www.google.com"
+//CHANGE HREF ATTRIBUTE
+link.setAttribute("href","www.dogs.com"); 
+///<a href="www.dogs.com">I am a link</a>
+
+//TO CHANGE THE IMAGE SRC
+var img = document.querySelector("img");
+img.setAttribute("src", "corgi.png");
+//<img src="corgi.png">
+```
