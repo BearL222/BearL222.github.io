@@ -39,7 +39,7 @@ A: change in CM, HDFS, configuration, advanced, safety
 ```
 
 Q: format hdfs  
-A: hdfs namenode -format
+A: ```hdfs namenode -format```
 then delete datanode's dir
 
 Q: VERSION (permission denied)  
@@ -71,10 +71,8 @@ Q: namenode is in safe mode
 A: ```hadoop dfsadmin -safemode leave```
 
 Q: yarn-site.xml fail  
-
-```assert 0, "Get workers from yarn-site.xml page failed, reason:%s\nplease set \`hibench.masters.hostnames\` and \`hibench.slaves.hostnames\` manually" % e
-AssertionError: Get workers from yarn-site.xml page failed, reason:[Errno 2] No such file or directory: '/opt/cloudera/parcels/CDH-5.15.0-1.cdh5.15.0.p0.21/lib/hadoop/etc/hadoop/yarn-site.xml'
-```
+assert 0, "Get workers from yarn-site.xml page failed, reason:%s\nplease set \`hibench.masters.hostnames\` and \`hibench.slaves.hostnames\` manually" % e
+AssertionError: Get workers from yarn-site.xml page failed, reason:[Errno 2] No such file or directory: '/opt/cloudera/parcels/CDH-5.15.0-1.cdh5.15.0.p0.21/lib/hadoop/etc/hadoop/yarn-site.xml'  
 yarn not started  
 A: yarn should be on the same server with namenode
 
